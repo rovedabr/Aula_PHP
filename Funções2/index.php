@@ -50,6 +50,15 @@
   }
   parOuImpar(3);
   parOuImpar(4);
+  echo "---------------------------------<br>";
+
+  $array2 = [];
+
+  for($i = 0; $i <= 30; $i++) {
+    array_push($array2, $i);
+  }
+
+  print_r($array2);
 
 
 
