@@ -18,3 +18,17 @@
   ];
 
   echo $arr2[1][1] . "<br>";
+  echo "-----------------------------<br>";
+
+  $car = [
+    'marca'=> 'Ford',
+    'motor'=> '2.0',
+    'teto_solar' => true,
+    'cambio' => 'manual',
+    'portas' => 4
+  ];
+
+  $keys = array_keys($car);
+
+  print_r($keys);
+  echo "<br>";
